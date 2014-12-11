@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 /* @import 'bootstrap-sprockets'; 
 @import 'bootstrap'; */
+=======
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+/* mixins, variables, etc. */
+
+$gray-medium-light: #eaeaea;
+
+>>>>>>> filling-in-layout
 
 /* universal */
 
@@ -21,10 +31,16 @@ textarea {
 
 .center {
   text-align: center;
+<<<<<<< HEAD
 }
 
 .center h1 {
   margin-bottom: 10px;
+=======
+  h1 {
+    margin-bottom: 10px;
+  }
+>>>>>>> filling-in-layout
 }
 
 /* typography */
@@ -46,7 +62,11 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
+<<<<<<< HEAD
   color: #777;
+=======
+  color: $gray-light;
+>>>>>>> filling-in-layout
 }
 
 p {
@@ -65,9 +85,43 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+<<<<<<< HEAD
 }
 
 #logo:hover {
   color: #fff;
   text-decoration: none;
 }
+=======
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $gray-medium-light;
+  color: $gray-light;
+  a {
+  color: $gray;
+    &:hover {
+    color: $gray-darker;
+    }
+  }
+  small {
+  float: left;
+  }
+  ul {
+  float: right;
+  list-style: none;
+    li {
+    float: left;
+    margin-left: 15px;
+    }
+  }    
+}
+>>>>>>> filling-in-layout
